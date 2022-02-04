@@ -1,0 +1,28 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.7.0 <0.9.0;
+
+/**
+ * @title Storage
+ * @dev Store & retrieve value in a variable
+ */
+contract Storage {
+
+    bytes32 value;
+
+    /**
+     * @dev Store value in variable
+     * @param val value to store
+     */
+    function store(bytes32 val) public {
+        value = val;
+    }
+
+    /**
+     * @dev Return value 
+     * @return value of 'value'
+     */
+    function retrieve() public view returns (bytes32){
+        return value;
+    }
+}

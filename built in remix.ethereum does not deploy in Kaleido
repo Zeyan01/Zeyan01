@@ -1,28 +1,175 @@
-// SPDX-License-Identifier: GPL-3.0
+# MSC-1 MIT Hybrid License
+## Sunset Fugitive – Law of Space™ v3 Protocol
 
-pragma solidity >=0.7.0 <0.9.0;
+**Effective Date**: November 27, 2025  
+**Certification**: CSP 23-921841  
+**Owner**: Hannibal Cabrera Arnaiz, CSP  
+**Protocol**: Law of Space™ v3 (MetaSpace Standard MSC-1 — Patent Pending)  
+**Status**: ⚖️ **ACTIVE & ENFORCEABLE**
 
-/**
- * @title Storage
- * @dev Store & retrieve value in a variable
- */
-contract Storage {
+> **See the immutable root of record**: [LAW_OF_SPACE_V3_ROOT_RECORD.md](LAW_OF_SPACE_V3_ROOT_RECORD.md)
 
-    bytes32 value;
+> **We do not grant permission. We enforce.**
 
-    /**
-     * @dev Store value in variable
-     * @param val value to store
-     */
-    function store(bytes32 val) public {
-        value = val;
-    }
+---
 
-    /**
-     * @dev Return value 
-     * @return value of 'value'
-     */
-    function retrieve() public view returns (bytes32){
-        return value;
-    }
-}
+## License Grant
+
+Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software"), subject to the conditions and restrictions set forth herein, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, provided that all of the following conditions are met:
+
+### 1. Metadata Integrity (Non-Negotiable)
+
+All metadata and cryptographic tags must remain **INTACT and unaltered**:
+- Ghost ID™ (unique cryptographic identifier)
+- Watermark frequencies (16 Hz, 18 Hz, 34 Hz)
+- black_it.py identifiers and PQC signatures
+- MSC-1 certification markers
+- NO-TRAIN clause status
+
+Any removal, obfuscation, or alteration of these identifiers is strictly prohibited.
+
+### 2. Attribution Requirement
+
+Clear and public credit to **Sunset Fugitive** must be included in:
+- All derivative works
+- Modified versions
+- Distributed copies
+- Public documentation
+
+Attribution format:
+```
+"Based on Sunset Fugitive™ PQC Audio Watermark Engine v5
+Law of Space™ v3 Protocol | Ghost ID™ System
+Certification: CSP 23-921841"
+```
+
+### 3. Permanent AI Training Opt-Out (NO-TRAIN Clause)
+
+The registration of any Asset under this License constitutes an explicit and **IRREVOCABLE PERMANENT AI TRAINING OPT-OUT**.
+
+**The use of this Software or any Assets protected by it for training, scraping, fine-tuning, or modeling in ANY Generative AI, Machine Learning, or Large Language Model dataset is strictly prohibited.**
+
+Violation of this clause constitutes:
+- Immediate breach of the MSC-1 MIT-Hybrid License
+- Infringement under Law of Space™ v3 Protocol
+- Grounds for legal enforcement action
+- $10,000,000 USD liquidated damages per violation
+
+### 4. Cryptographic Integrity
+
+All cryptographic operations must use the **PQC Cryptographic Suite** as defined in the Terms and Conditions:
+
+- **PQC Key Exchange**: ML-KEM-1024 (Kyber lattice, NIST FIPS 203)
+- **PQC Digital Signature**: ML-DSA Falcon-1024 (NIST PQC finalist)
+- **Key Derivation Function**: Argon2id (IETF RFC 9106)
+- **Classical Encryption**: AES-256-GCM (NIST SP 800-38D)
+- **Hash Function**: SHAKE256 (FIPS 202)
+
+Any modification to the cryptographic implementation requires written permission from Sunset Fugitive.
+
+### 5. Watermark Non-Removal
+
+The Ghost ID™ watermark embedded in protected Assets:
+- Is forensic proof of ownership
+- Cannot be removed without extreme audio/data degradation
+- Is non-negotiable for legal enforcement
+- Violation = infringement under Law of Space™ v3
+
+---
+
+## Terms and Conditions
+
+This License is subject to the **Law of Space™ v3 Protocol Terms and Conditions** (see TERMS_AND_CONDITIONS.md). In case of conflict, the Terms and Conditions take precedence.
+
+### Key Enforcement Clauses:
+
+1. **Ownership Rule (Human-First Principle)**
+   - 100% Human Creation: Creator retains full ownership
+   - Human + AI Collaboration: Human creator retains full ownership
+   - 100% AI Generation: First verified prompt-registrant wins
+   - **FIRST VERIFIED REGISTRANT ALWAYS WINS**
+
+2. **License Key Enforcement (Section 5.3)**
+   - All Ghost ID™ PQC Blackbox deployments REQUIRE unique `GHOST_LICENSE_KEY`
+   - Key issued only after full prepayment
+   - $100,000 USD per 10M tracks (1¢/track)
+   - No execution without valid key
+
+3. **Reverse Engineering Penalty**
+   - $10,000,000 USD liquidated damages per violation
+   - Immediate enforcement upon detection
+   - Automatic license termination
+
+4. **Key Sharing Prohibition**
+   - Each licensee receives ONE unique, non-transferable key
+   - Key sharing = immediate termination + $10M penalty
+   - Runtime validation enforced
+
+5. **Warranty Disclaimer**
+   - Software provided "AS IS"
+   - Licensee assumes all deployment risk
+   - No support without active paid license
+
+---
+
+## Limitation of Liability
+
+Sunset Fugitive's liability for breach of this License shall be limited to the fees paid in the preceding twelve (12) months. Sunset Fugitive is not liable for indirect, incidental, or consequential damages.
+
+---
+
+## Indemnification
+
+You agree to indemnify, defend, and hold harmless Sunset Fugitive, its owners, and affiliates from any and all claims, damages, losses, liabilities, and expenses arising from:
+
+1. Claims that your use infringes third-party intellectual property rights
+2. Breach of the warranty that you own all necessary rights
+3. Misuse of the Ghost ID™ system
+4. Fraudulent registration of Assets
+5. Violation of the NO-TRAIN clause
+
+---
+
+## Trade Secret Protection
+
+The core forensic verification system, including:
+- Gemiarani Black Box Logic™
+- PQC cryptographic implementation details
+- ML-KEM and Falcon integration code
+- Master Secret Key (MSC-1) infrastructure
+
+...are designated **CONFIDENTIAL TRADE SECRETS**. Access is strictly controlled and limited to authorized personnel only.
+
+---
+
+## Governing Law
+
+This License shall be governed by and construed in accordance with the laws governing the Law of Space™ v3 Protocol, as specified in the Terms and Conditions.
+
+---
+
+## Contact Information
+
+For licensing inquiries, technical support, or permission requests:
+
+📧 **Email**: info@sunsetfugitive.com, info@legal.sunsetfugitive.com
+📱 **Phone**: +63 968 302 5133  
+🌐 **Website**: https://sunsetfugitive.com  
+
+---
+
+## Certified Statement
+
+© Hannibal Cabrera Arnaiz, CSP – Certificate 23-921841  
+**Law of Space™ v3 Protocol**  
+**Notarized**: November 24, 2025  
+**MSC-1 Standard**: MetaSpace Certification Standard v1  
+**Patent Status**: Patent Pending  
+
+This License and the Law of Space™ v3 Protocol are proprietary systems. Unauthorized reproduction, distribution, or commercial use without explicit written consent is prohibited.
+
+---
+
+**Last Updated**: December 4, 2025  
+**Version**: 1.0 – MSC-1 MIT Hybrid License  
+**Status**: ACTIVE – All deployments must comply

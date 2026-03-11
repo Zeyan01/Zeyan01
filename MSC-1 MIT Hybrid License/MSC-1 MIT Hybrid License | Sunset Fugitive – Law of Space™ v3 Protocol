@@ -1,175 +1,202 @@
-# MSC-1 MIT Hybrid License
-## Sunset Fugitive – Law of Space™ v3 Protocol
+(Proprietary + Open Source)
+# Law of Space™ v3 — Protocol & Consent Summary (Draft v1.1)
 
-**Effective Date**: November 27, 2025  
-**Certification**: CSP 23-921841  
-**Owner**: Hannibal Cabrera Arnaiz, CSP  
-**Protocol**: Law of Space™ v3 (MetaSpace Standard MSC-1 — Patent Pending)  
-**Status**: ⚖️ **ACTIVE & ENFORCEABLE**
+**License Standard**: MSC‑1 MIT‑Hybrid (Proprietary + Open Source)
+**Protocol**: Law of Space™ v3 (Provenance as Constitutional Infrastructure)
+**Authority**: CSP 23‑921841 (Hannibal C. Arnaiz)
 
-> **See the immutable root of record**: [LAW_OF_SPACE_V3_ROOT_RECORD.md](LAW_OF_SPACE_V3_ROOT_RECORD.md)
+© 2025–2026 Sunset Fugitive. All rights reserved. This release is processed under Law of Space™ v3 and MetaSpace Standard MSC‑1 and is instrumented with Ghost ID™ forensic watermarking and post‑quantum cryptographic controls.
 
-> **We do not grant permission. We enforce.**
+> **Forensic Notice (Informational):** Access to this file may be monitored and logged for security and provenance purposes where such logging is configured and legally permitted.
 
----
+***
 
-## License Grant
+## I. Identity & Authority
 
-Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software"), subject to the conditions and restrictions set forth herein, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, provided that all of the following conditions are met:
+**Governing Protocol**: Law of Space™ v3  
+**Certification Standard**: MetaSpace Standard MSC‑1 (Patent Pending)
+**Certification Authority**: CSP 23‑921841 (Hannibal C. Arnaiz)
+**Effective Protocol Date**: November 2025
+**Status**: ⚖️ **ACTIVE (Protocol Standard)**
 
-### 1. Metadata Integrity (Non-Negotiable)
+This document summarizes how the Protocol records authorship, consent posture, and provenance. It does **not** create additional guarantees beyond those defined in Canon v1.0 and the applicable Terms.
 
-All metadata and cryptographic tags must remain **INTACT and unaltered**:
-- Ghost ID™ (unique cryptographic identifier)
-- Watermark frequencies (16 Hz, 18 Hz, 34 Hz)
-- black_it.py identifiers and PQC signatures
-- MSC-1 certification markers
-- NO-TRAIN clause status
+***
 
-Any removal, obfuscation, or alteration of these identifiers is strictly prohibited.
+## II. Protected Asset Instrumentation
 
-### 2. Attribution Requirement
+This release is instrumented under Law of Space™ v3 with the following forensic and cryptographic mechanisms.
 
-Clear and public credit to **Sunset Fugitive** must be included in:
-- All derivative works
-- Modified versions
-- Distributed copies
-- Public documentation
+### Forensic Security Layer
 
-Attribution format:
-```
-"Based on Sunset Fugitive™ PQC Audio Watermark Engine v5
-Law of Space™ v3 Protocol | Ghost ID™ System
-Certification: CSP 23-921841"
-```
+- **Ghost ID™ watermark**: 16 Hz + 18 Hz + 34 Hz sub‑audible triplet (signal‑layer marker).  
+- **Embedding method**: LSB steganography in 16‑bit PCM audio samples.  
+- **Detection tooling**: e.g. `hannibal_v4_engine.py` using Goertzel‑based spectral analysis.  
+- **Forensic signature**: SHAKE256‑derived identifier (fixed‑length hex output) associated with this release.
+- **Intended robustness**: Designed to survive common operations such as compression, format conversion, and moderate degradation; attempts to remove or overwrite the watermark are intended to be detectable under normal conditions.
 
-### 3. Permanent AI Training Opt-Out (NO-TRAIN Clause)
+### Cryptographic Suite (PQC Layer)
 
-The registration of any Asset under this License constitutes an explicit and **IRREVOCABLE PERMANENT AI TRAINING OPT-OUT**.
+- Post‑quantum channel and signing primitives consistent with Law of Space™ v3 architecture, for example:
+  - **KEM**: ML‑KEM (NIST FIPS 203 family) for key encapsulation.  
+  - **Signature**: ML‑DSA‑style or Falcon‑class PQ signatures for authenticity.  
+  - **KDF**: Argon2id / HKDF for key derivation.  
+  - **AEAD**: AES‑256‑GCM for authenticated encryption.  
+  - **MAC**: HMAC‑SHA‑512 or equivalent for message authentication.
 
-**The use of this Software or any Assets protected by it for training, scraping, fine-tuning, or modeling in ANY Generative AI, Machine Learning, or Large Language Model dataset is strictly prohibited.**
+Exact algorithm choices may evolve in implementation without altering the doctrine that registered assets are bound to verifiable cryptographic evidence of origin and integrity.
 
-Violation of this clause constitutes:
-- Immediate breach of the MSC-1 MIT-Hybrid License
-- Infringement under Law of Space™ v3 Protocol
-- Grounds for legal enforcement action
-- $10,000,000 USD liquidated damages per violation
+***
 
-### 4. Cryptographic Integrity
+## III. Ownership & Human‑First Standard
 
-All cryptographic operations must use the **PQC Cryptographic Suite** as defined in the Terms and Conditions:
+Within the Protocol, ownership claims are **expressed** according to a human‑first hierarchy:
 
-- **PQC Key Exchange**: ML-KEM-1024 (Kyber lattice, NIST FIPS 203)
-- **PQC Digital Signature**: ML-DSA Falcon-1024 (NIST PQC finalist)
-- **Key Derivation Function**: Argon2id (IETF RFC 9106)
-- **Classical Encryption**: AES-256-GCM (NIST SP 800-38D)
-- **Hash Function**: SHAKE256 (FIPS 202)
+1. **Human‑composed assets** → Ownership is recorded in favor of the identified human creator.  
+2. **Human + AI collaboration** → Ownership is recorded in favor of the human initiator / director.  
+3. **AI‑generated assets** → Where permitted, ownership may be recorded in favor of the first verified prompt‑registrant.
 
-Any modification to the cryptographic implementation requires written permission from Sunset Fugitive.
+These rules describe how the system records authorship claims; they do not override applicable law in any jurisdiction.
 
-### 5. Watermark Non-Removal
+Ownership records are anchored using:
 
-The Ghost ID™ watermark embedded in protected Assets:
-- Is forensic proof of ownership
-- Cannot be removed without extreme audio/data degradation
-- Is non-negotiable for legal enforcement
-- Violation = infringement under Law of Space™ v3
+- Ghost ID™ watermark (forensic identity/payload linkage).  
+- Genesis payload registration (MSC‑1 metadata envelope).  
+- Blockchain‑anchored references where applicable (e.g. Base/Zora).  
+- PQC signature verification for authenticity when keys and signatures are present.
 
----
+***
 
-## Terms and Conditions
+## IV. Rights Granted (MIT‑Hybrid Outline)
 
-This License is subject to the **Law of Space™ v3 Protocol Terms and Conditions** (see TERMS_AND_CONDITIONS.md). In case of conflict, the Terms and Conditions take precedence.
+Subject to the MSC‑1 MIT‑Hybrid license and the applicable Terms, you may use, distribute, transform, and build upon this material **only if** you comply with all of the following structural conditions:
 
-### Key Enforcement Clauses:
+### 1. Metadata & Evidence Integrity
 
-1. **Ownership Rule (Human-First Principle)**
-   - 100% Human Creation: Creator retains full ownership
-   - Human + AI Collaboration: Human creator retains full ownership
-   - 100% AI Generation: First verified prompt-registrant wins
-   - **FIRST VERIFIED REGISTRANT ALWAYS WINS**
+- Do not intentionally strip, falsify, or tamper with:  
+  - Ghost ID™ watermark signals.  
+  - Forensic signatures and cryptographic tags.  
+  - MSC‑1 certification markers.  
+- Where you create derivatives, preserve or clearly re‑establish provenance metadata so that authorship and registration records remain traceable.
 
-2. **License Key Enforcement (Section 5.3)**
-   - All Ghost ID™ PQC Blackbox deployments REQUIRE unique `GHOST_LICENSE_KEY`
-   - Key issued only after full prepayment
-   - $100,000 USD per 10M tracks (1¢/track)
-   - No execution without valid key
+### 2. Attribution
 
-3. **Reverse Engineering Penalty**
-   - $10,000,000 USD liquidated damages per violation
-   - Immediate enforcement upon detection
-   - Automatic license termination
+- Provide clear attribution to Sunset Fugitive and, where specified, to the registered creator:  
+  - In audio or file metadata fields.  
+  - On distribution platforms (descriptions, liner notes).  
+  - In NFT / on‑chain metadata if tokenized.  
+  - In associated legal or licensing documentation.
 
-4. **Key Sharing Prohibition**
-   - Each licensee receives ONE unique, non-transferable key
-   - Key sharing = immediate termination + $10M penalty
-   - Runtime validation enforced
+### 3. No‑Train Consent Posture
 
-5. **Warranty Disclaimer**
-   - Software provided "AS IS"
-   - Licensee assumes all deployment risk
-   - No support without active paid license
+For assets marked “no‑train” under Law of Space™ v3:
 
----
+- The canonical metadata includes a `no_train_flag` and references a specific legal clause version and hash that express non‑consent to use in AI/ML training datasets.
+- That consent posture is recorded at registration time and preserved as part of the historical record.
 
-## Limitation of Liability
+This structure **does not guarantee** that all third parties will comply. It guarantees that the registrant’s consent posture is **structurally expressed and evidentially anchored** for later inspection.
 
-Sunset Fugitive's liability for breach of this License shall be limited to the fees paid in the preceding twelve (12) months. Sunset Fugitive is not liable for indirect, incidental, or consequential damages.
+For assets marked “no‑train”, the applicable clause is identified by a versioned identifier (`MSC1_ENF_3.2_v1.0`) and a SHAKE256 hash of this notice as it existed at registration time. That hash may be additionally sealed under a post‑quantum signature (e.g., via `PQC module`) to provide cryptographic proof that the clause text has not drifted since registration.
 
----
+***
 
-## Indemnification
+## V. Restrictions (Protocol Posture)
 
-You agree to indemnify, defend, and hold harmless Sunset Fugitive, its owners, and affiliates from any and all claims, damages, losses, liabilities, and expenses arising from:
+To respect the Protocol’s governance model and consent posture, you are expected **not** to:
 
-1. Claims that your use infringes third-party intellectual property rights
-2. Breach of the warranty that you own all necessary rights
-3. Misuse of the Ghost ID™ system
-4. Fraudulent registration of Assets
-5. Violation of the NO-TRAIN clause
+- Intentionally remove or falsify forensic watermarks or provenance identifiers.  
+- Misrepresent authorship or registration status.  
+- Ignore a clearly expressed “no‑train” consent posture by using the asset in AI/ML training datasets.  
+- Circumvent technical measures that support provenance, such as watermark detection or metadata integrity checks.
 
----
+These restrictions reflect the Protocol’s expectations; actual remedies and liabilities are defined in the Terms and in applicable law.
 
-## Trade Secret Protection
+***
 
-The core forensic verification system, including:
-- Gemiarani Black Box Logic™
-- PQC cryptographic implementation details
-- ML-KEM and Falcon integration code
-- Master Secret Key (MSC-1) infrastructure
+## VI. ENFORCEMENT & LEGAL REMEDIES
 
-...are designated **CONFIDENTIAL TRADE SECRETS**. Access is strictly controlled and limited to authorized personnel only.
+### 1. Violation Triggers
 
----
+If you materially violate these Terms and Conditions or misuse Assets registered under Law of Space™ v3 (including disregard of a clearly expressed “no‑train” consent posture), SF may treat this as a breach of contract and, where applicable, an infringement of intellectual property or circumvention of technical protection measures.
 
-## Governing Law
+Examples of material violations include:
 
-This License shall be governed by and construed in accordance with the laws governing the Law of Space™ v3 Protocol, as specified in the Terms and Conditions.
+- Intentional removal or falsification of Ghost ID™ forensic watermarks or canonical metadata.  
+- Knowing use of “no‑train” Assets in AI/ML training datasets you control, contrary to the recorded consent posture.  
+- Misrepresentation of authorship or ownership using Protocol evidence you know to be inaccurate.  
+- Unauthorized access to or misuse of SF’s proprietary tooling and trade secrets.
 
----
+### 2. Evidence and Internal Actions
 
-## Contact Information
+When SF becomes aware of a suspected violation, SF may:
 
-For licensing inquiries, technical support, or permission requests:
+1. Use internal tools to analyze watermark signals, metadata, registration records, and any available cryptographic signatures to assemble an evidentiary packet.  
+2. Compare the current state of the Asset and its usage against the canonical metadata envelope, registration ledger, and relevant legal clause versions.  
+3. Take internal actions such as suspending access to specific services, limiting use of certain tooling, or disabling API keys associated with suspected misuse, where contractually and legally permitted.
 
-📧 **Email**: info@sunsetfugitive.com, info@legal.sunsetfugitive.com
-📱 **Phone**: +63 968 302 5133  
-🌐 **Website**: https://sunsetfugitive.com  
+Any such steps are intended to protect the integrity of the Protocol and the rights of registered creators; they do not in themselves determine legal liability.
 
----
+### 3. External Remedies
+
+Subject to applicable law and any separate agreements, SF may pursue or support external remedies, which can include:
+
+- Seeking injunctive relief to stop ongoing misuse or infringement.  
+- Pursuing statutory or actual damages where available under copyright, contract, or other applicable laws.  
+- Providing evidentiary packets (such as watermark verifier logs, registration records, and metadata hashes) to courts, regulators, or other competent authorities upon appropriate legal process.
+
+No specific monetary amount is guaranteed or pre‑set in this document; any recovery or penalties will depend on applicable law, the nature of the violation, and the decisions of courts, regulators, or arbitral bodies.
+
+### 4. Relationship to Protocol Evidence
+
+The Protocol is designed to maintain records that can be inspected in the event of a dispute, including:
+
+- Ghost ID™ registration entries.  
+- Watermark verification results.  
+- Canonical metadata hashes and diffs.  
+- Versioned legal clauses associated with “no‑train” posture or other consent conditions.
+
+These records are intended to support evidentiary clarity. They do not guarantee that any particular claim will prevail in court, nor do they create a separate legal jurisdiction or automatic “on‑chain” enforcement system.
+
+### 5. Limitation of Liability
+
+Any enforcement actions SF may take are subject to the limitation of liability and indemnification provisions elsewhere in these Terms. In particular, SF’s aggregate liability to you remains limited to the extent described in the Limitation of Liability section, and nothing in this Enforcement & Legal Remedies section is intended to expand that liability cap.
+
+***
+## VII. Liability & Disclaimer
+
+This Protocol and associated tooling are provided **“as is”**, without warranties of merchantability, fitness for a particular purpose, non‑infringement, availability, or performance, except where such warranties are explicitly required by law or separate written agreement.
+
+Nothing in this document guarantees successful enforcement against all actors. It describes how Law of Space™ v3 records and exposes evidence so that disputes can be evaluated on verifiable grounds.
+
+***
+
+## VIII. Jurisdiction & Contact
+
+Law of Space™ v3 operates as a protocol‑native governance layer for digital assets and interoperates with existing legal frameworks; it does **not** replace them.
+
+For legal inquiries, alleged violations, or protocol questions:
+
+- 📧 contact@sunsetfugitive.com, info@sunsetfugitive.com
+- 🌐 https://sunsetfugitive.com/law-of-space-v3
+
+Applicable law, venue, and dispute resolution mechanisms are defined in the Terms and in any applicable supplemental agreements.
+
+***
+
+## IX. Document Integrity
+
+This summary may itself be covered by Ghost ID™ watermarking and integrity hashing. Where a hash is provided, it is intended to allow verification that the text has not been altered since publication.
+
+Versioning and any future changes to this document should be tracked via visible version bumps and change logs; no silent expansion of guarantees is intended or permitted.
+
+***
 
 ## Certified Statement
-
-© Hannibal Cabrera Arnaiz, CSP – Certificate 23-921841  
+© Hannibal Cabrera Arnaiz, CSP – Certificate 23‑921841  
 **Law of Space™ v3 Protocol**  
 **Notarized**: November 24, 2025  
-**MSC-1 Standard**: MetaSpace Certification Standard v1  
-**Patent Status**: Patent Pending  
+**MSC‑1 Standard**: MetaSpace Certification Standard v1 (Patent Pending)  
 
-This License and the Law of Space™ v3 Protocol are proprietary systems. Unauthorized reproduction, distribution, or commercial use without explicit written consent is prohibited.
-
----
-
-**Last Updated**: December 4, 2025  
-**Version**: 1.0 – MSC-1 MIT Hybrid License  
-**Status**: ACTIVE – All deployments must comply
+**Updated**: December 4, 2025  
+**Version**: 1.0 – Law of Space™ v3 T&Cs  
+**Status**: ACTIVE – Interpretive and strategic document defining the defensive design of the Law of Space™ v3 Protocol. Not a technical specification or implementation guide, but a high-level framework for understanding how the protocol resists capture and imitation through multiple layers of defense and how authority is anchored in Canonv1.0, and the Terms & Conditions.
